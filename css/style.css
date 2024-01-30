@@ -738,7 +738,7 @@ body {
     flex-direction: column;
     position: absolute;
     background-color: #fff;
-    top: -100%;
+    top: -200%;
     right: -200%;
     padding: 32px;
     z-index: 2;
@@ -1096,7 +1096,7 @@ body {
 @media only screen and (max-width: 1265px) {
   .change__list {
     display: grid;
-    grid-template-columns: 350px 350px;
+    grid-template-columns: 340px 340px;
     grid-template-rows: 370px 370px;
   }
   .item_1 {
