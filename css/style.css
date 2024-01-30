@@ -1289,6 +1289,9 @@ body {
     display: flex;
     align-items: center;
   }
+  .map__item {
+    font-size: 14px;
+  }
 }
 .faqs {
   margin-bottom: 160px;
