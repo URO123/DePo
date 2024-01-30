@@ -196,13 +196,13 @@
     position: relative;
     z-index: 3;
 }
-@media only screen and (max-width: 1121px) {
+@media only screen and (max-width: 1088px) {
     .site-header__list{
         display: flex;
         flex-direction: column;
         position: absolute;
         background-color: #fff;
-        top: 0;
+        top: -100%;
         right: -200%;
         padding: 32px;
         z-index: 2;
