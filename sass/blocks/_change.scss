@@ -1,0 +1,147 @@
+.change {
+    margin-bottom: 120px;
+}
+.change__inner {
+    padding-bottom: 120px;
+    border-bottom: solid 1px #d9d9d9;
+}
+.change__title {
+    margin-right: 20px;
+    color: var(--Dark, #000);
+    width: 452px;
+font-size: 48px;
+font-style: normal;
+font-weight: 500;
+line-height: 56px;
+}
+.btn3 {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-left: auto;
+}
+.change__list {
+    @include flex-starter;
+    gap: 24px;
+}
+.change__item {
+    list-style: none;
+    @include flex-starter;
+    flex-direction: column;
+    gap: 24px;
+}
+.change__nav{
+    @include flex-starter;
+    margin-bottom: 48px;
+}
+.change__item-img {
+}
+.change__item-main {
+    width: 392px;
+    @include flex-starter;
+    flex-direction: column;
+    gap: 24px;
+}
+.first {
+    background-color: #DFD3F7;
+    padding: 4px 16px;
+border-radius: 24px;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px;
+margin-right: auto;
+}
+.second {
+    background-color: #C0E1EE;
+    padding: 4px 16px;
+border-radius: 24px;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px;
+margin-right: auto;
+}
+.third {
+    background-color: #D0E5C2;
+    padding: 4px 16px;
+border-radius: 24px;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px;
+margin-right: auto;
+}
+.change__item-title {
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 32px;
+width: 392px;
+}
+.change__item-text {
+    color: var(--Gray, #6F767E);
+    width: 392px;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px;
+}
+.item4{
+    list-style: none;
+    display: none;
+    gap: 0;
+}
+@media only screen and (max-width:1265px) {
+.change__list{
+    display: grid;
+    grid-template-columns: 370px 370px;
+    grid-template-rows: 410px 410px;
+    grid-gap: 100px;
+}
+.item_1{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.item_2{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.item_3{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.item4{
+    display: block;
+    margin-bottom: auto;
+}
+.change__nav{
+    flex-direction: column;
+    gap: 0;
+    margin: 0;
+    width: 100%;
+    max-width: 330px;
+    display: none;
+}
+.btn3{
+    margin: 0;
+    margin-right: auto;
+}
+.change__title{
+    margin: 0;
+    max-width: 330px;
+    width: 100%;
+    margin-right: auto;
+    margin-bottom: 32px;
+}
+.change__inner{
+    display: flex;
+    gap: 35px;
+}
+}
+

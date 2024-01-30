@@ -1,0 +1,39 @@
+.footer {
+    padding: 24px 105px;
+}
+.footer__inner {
+    @include flex-starter;
+    gap: 20px;
+}
+.terms {
+    margin-left: auto;
+}
+.terms__list {
+    @include flex-starter;
+    gap: 32px;
+}
+.terms__item {
+    list-style: none;
+}
+.terms__link {
+    text-decoration: none;
+    color: var(--Gray, #6F767E);
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: 16px;
+}
+.footer__bottom-apps__text{
+    color: var(--Gray, #6F767E);
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+}
+.site-app2{
+    margin-left: auto;
+}
+@media only screen and (max-width:1000px) {
+.site-app2{
+}
+}

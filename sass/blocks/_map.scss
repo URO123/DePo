@@ -1,0 +1,128 @@
+.map {
+    margin-bottom: 120px;
+    position: relative;
+}
+.map__inner {
+    @include flex-starter;
+    padding-bottom: 120px;
+    border-bottom: solid 1px #d9d9d9;
+}
+.map__left {
+    display: inline-block;
+}
+.map__list {
+    background-color: #F5F9FE;
+    padding: 8px;
+    border-radius: 16px;
+    display: inline-block;
+    margin-bottom: 64px;
+}
+.map__item {
+    list-style: none;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+.map__item:hover{
+    background-color: #fff;
+}
+.map__link:hover{
+    color: #000
+}
+.map__location {
+    margin-right: 8px;
+}
+.map__link {
+    text-decoration: none;
+    color: #6F767E;
+}
+.map__title {
+    width: 452px;
+font-size: 48px;
+font-style: normal;
+font-weight: 500;
+line-height: 56px;
+}
+
+.btn4 {
+    color: #6F767E;
+    background-color: #F5F9FE;
+    text-decoration: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+}
+.btn4:hover {
+    color: #000;
+    background-color: #E3EEFD;
+}
+.btn4:active {
+    background-color: #BFD8FB
+}
+.map__button{
+    @include flex-starter;
+    margin-top: 32px;
+    gap: 16px;
+}
+.map__right {
+    display: inline-block;
+    // position: absolute;
+    // top: -15px;
+    // right: 145px;
+}
+.map__img {
+    max-width: 940px;
+    width: 100%;
+    height: 518px;
+}
+.list__active{
+    @include flex-starter;
+    margin-top: 24px;
+    display: none;
+}
+@media only screen and (max-width:1395px) {
+    .map__img{
+        max-width: 900px;
+        width: 100%;
+        height: 500px;
+    }
+}
+@media only screen and (max-width:1205px) {
+    .map__img{
+        max-width: 800px;
+        width: 100%;
+        height: 400px;
+    }
+}
+@media only screen and (max-width:1036px) {
+    .map__img{
+        max-width:700px;
+        width: 100%;
+        height: 300px;
+    }
+}
+@media only screen and (max-width:946px) {
+    .map__img{
+        max-width:600px;
+        width: 100%;
+        height: 300px;
+    }
+}
+@media only screen and (max-width:900px) {
+.map__inner{
+    flex-direction: column;
+    // padding-right: 150px;
+}
+.map__title{
+    width: 100%;
+    max-width: 503px;
+}
+.map__right{
+    margin-top: 64px;
+}
+.map__list{
+    display: none;
+}
+.list__active{
+    display: block;
+    @include flex-starter;
+}
+}
